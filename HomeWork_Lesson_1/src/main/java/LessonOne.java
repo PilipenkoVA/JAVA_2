@@ -15,7 +15,7 @@ public class LessonOne {
     public static void main(String[] args) {
 
         Participants[] participants = {
-                new Human("Mark", 2,250),
+                new Human("Bob", 2,250),
                 new Cat("Murzik",10,50),
                 new Robot("User101",20, 1000)
         };
