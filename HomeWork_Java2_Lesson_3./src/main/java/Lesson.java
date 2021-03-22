@@ -34,7 +34,7 @@ public class Lesson {
             System.out.println(entry.getKey()+". Имя - "+entry.getValue());
         }
         System.out.println();
-
+        
         // Задание №2
 
         PhoneDirectory directory = new PhoneDirectory();
@@ -53,7 +53,5 @@ public class Lesson {
         System.out.println(directory.get("Ivanov-1"));
         System.out.println(directory.get("Petrov"));
         System.out.println(directory.get("Semenov"));
-
-
     }
 }
