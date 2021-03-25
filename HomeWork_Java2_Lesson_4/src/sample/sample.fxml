@@ -5,12 +5,7 @@
 <?import javafx.scene.layout.*?>
 
 <VBox alignment="center" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
-    <TextArea fx:id="mainText" editable="false" focusTraversable="false"  VBox.vgrow="ALWAYS">
-    </TextArea>
-    <HBox>
-        <TextField fx:id="msgField" onAction="#clickBtn" pickOnBounds="false" promptText="Напишите  здесь текст сообщения...." HBox.hgrow="ALWAYS" />
-        <Button onAction="#clickBtn" text="Отправить." textAlignment="CENTER" />
-    </HBox>
+    <TextArea fx:id="mainText"
 
 
 
