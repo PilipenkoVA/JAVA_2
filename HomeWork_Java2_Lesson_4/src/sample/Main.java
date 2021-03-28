@@ -6,6 +6,7 @@
          При «отсылке» сообщение перекидывается из нижнего поля в центральное.
 */
 
+
 package sample;
 
 import javafx.application.Application;
